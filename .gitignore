@@ -1,0 +1,17 @@
+# SQLite создаётся автоматически при первом запуске
+/database/*.sqlite
+/database/*.sqlite-*
+
+# Локальные сессии и журналы
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+/storage/php-error.log
+
+# Материалы только для преподавателя (репозиторий публичный)
+/TEACHER_BUG_LIST.md
+
+# Служебные файлы ОС и IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
